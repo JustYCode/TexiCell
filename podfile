@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘TexiCell’ do
+
+pod 'SDCycleScrollView','~> 1.64'
+
+end
