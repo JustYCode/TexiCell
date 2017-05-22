@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38BB7C601ED28D3E0067222C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB7C5F1ED28D3E0067222C /* AppDelegate.swift */; };
+		38BB7C621ED28D3E0067222C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB7C611ED28D3E0067222C /* ViewController.swift */; };
+		38BB7C651ED28D3E0067222C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BB7C631ED28D3E0067222C /* Main.storyboard */; };
+		38BB7C671ED28D3E0067222C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BB7C661ED28D3E0067222C /* Assets.xcassets */; };
+		38BB7C6A1ED28D3E0067222C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BB7C681ED28D3E0067222C /* LaunchScreen.storyboard */; };
+		38BB7C751ED28D3F0067222C /* TexiCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB7C741ED28D3F0067222C /* TexiCellTests.swift */; };
+		38BB7C801ED28D3F0067222C /* TexiCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB7C7F1ED28D3F0067222C /* TexiCellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38BB7C711ED28D3F0067222C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BB7C541ED28D3E0067222C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BB7C5B1ED28D3E0067222C;
+			remoteInfo = TexiCell;
+		};
+		38BB7C7C1ED28D3F0067222C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BB7C541ED28D3E0067222C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BB7C5B1ED28D3E0067222C;
+			remoteInfo = TexiCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38BB7C5C1ED28D3E0067222C /* TexiCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TexiCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BB7C5F1ED28D3E0067222C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38BB7C611ED28D3E0067222C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38BB7C641ED28D3E0067222C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38BB7C661ED28D3E0067222C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38BB7C691ED28D3E0067222C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38BB7C6B1ED28D3E0067222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BB7C701ED28D3F0067222C /* TexiCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexiCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BB7C741ED28D3F0067222C /* TexiCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexiCellTests.swift; sourceTree = "<group>"; };
+		38BB7C761ED28D3F0067222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BB7C7B1ED28D3F0067222C /* TexiCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexiCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BB7C7F1ED28D3F0067222C /* TexiCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexiCellUITests.swift; sourceTree = "<group>"; };
+		38BB7C811ED28D3F0067222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38BB7C591ED28D3E0067222C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BB7C6D1ED28D3F0067222C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BB7C781ED28D3F0067222C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38BB7C531ED28D3E0067222C = {
+			isa = PBXGroup;
+			children = (
+				38BB7C5E1ED28D3E0067222C /* TexiCell */,
+				38BB7C731ED28D3F0067222C /* TexiCellTests */,
+				38BB7C7E1ED28D3F0067222C /* TexiCellUITests */,
+				38BB7C5D1ED28D3E0067222C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38BB7C5D1ED28D3E0067222C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38BB7C5C1ED28D3E0067222C /* TexiCell.app */,
+				38BB7C701ED28D3F0067222C /* TexiCellTests.xctest */,
+				38BB7C7B1ED28D3F0067222C /* TexiCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38BB7C5E1ED28D3E0067222C /* TexiCell */ = {
+			isa = PBXGroup;
+			children = (
+				38BB7C5F1ED28D3E0067222C /* AppDelegate.swift */,
+				38BB7C611ED28D3E0067222C /* ViewController.swift */,
+				38BB7C631ED28D3E0067222C /* Main.storyboard */,
+				38BB7C661ED28D3E0067222C /* Assets.xcassets */,
+				38BB7C681ED28D3E0067222C /* LaunchScreen.storyboard */,
+				38BB7C6B1ED28D3E0067222C /* Info.plist */,
+			);
+			path = TexiCell;
+			sourceTree = "<group>";
+		};
+		38BB7C731ED28D3F0067222C /* TexiCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				38BB7C741ED28D3F0067222C /* TexiCellTests.swift */,
+				38BB7C761ED28D3F0067222C /* Info.plist */,
+			);
+			path = TexiCellTests;
+			sourceTree = "<group>";
+		};
+		38BB7C7E1ED28D3F0067222C /* TexiCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38BB7C7F1ED28D3F0067222C /* TexiCellUITests.swift */,
+				38BB7C811ED28D3F0067222C /* Info.plist */,
+			);
+			path = TexiCellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38BB7C5B1ED28D3E0067222C /* TexiCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BB7C841ED28D3F0067222C /* Build configuration list for PBXNativeTarget "TexiCell" */;
+			buildPhases = (
+				38BB7C581ED28D3E0067222C /* Sources */,
+				38BB7C591ED28D3E0067222C /* Frameworks */,
+				38BB7C5A1ED28D3E0067222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TexiCell;
+			productName = TexiCell;
+			productReference = 38BB7C5C1ED28D3E0067222C /* TexiCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38BB7C6F1ED28D3F0067222C /* TexiCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BB7C871ED28D3F0067222C /* Build configuration list for PBXNativeTarget "TexiCellTests" */;
+			buildPhases = (
+				38BB7C6C1ED28D3F0067222C /* Sources */,
+				38BB7C6D1ED28D3F0067222C /* Frameworks */,
+				38BB7C6E1ED28D3F0067222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BB7C721ED28D3F0067222C /* PBXTargetDependency */,
+			);
+			name = TexiCellTests;
+			productName = TexiCellTests;
+			productReference = 38BB7C701ED28D3F0067222C /* TexiCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38BB7C7A1ED28D3F0067222C /* TexiCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BB7C8A1ED28D3F0067222C /* Build configuration list for PBXNativeTarget "TexiCellUITests" */;
+			buildPhases = (
+				38BB7C771ED28D3F0067222C /* Sources */,
+				38BB7C781ED28D3F0067222C /* Frameworks */,
+				38BB7C791ED28D3F0067222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BB7C7D1ED28D3F0067222C /* PBXTargetDependency */,
+			);
+			name = TexiCellUITests;
+			productName = TexiCellUITests;
+			productReference = 38BB7C7B1ED28D3F0067222C /* TexiCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38BB7C541ED28D3E0067222C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "小黄star";
+				TargetAttributes = {
+					38BB7C5B1ED28D3E0067222C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+					38BB7C6F1ED28D3F0067222C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5P3CS2G568;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38BB7C5B1ED28D3E0067222C;
+					};
+					38BB7C7A1ED28D3F0067222C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5P3CS2G568;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38BB7C5B1ED28D3E0067222C;
+					};
+				};
+			};
+			buildConfigurationList = 38BB7C571ED28D3E0067222C /* Build configuration list for PBXProject "TexiCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38BB7C531ED28D3E0067222C;
+			productRefGroup = 38BB7C5D1ED28D3E0067222C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38BB7C5B1ED28D3E0067222C /* TexiCell */,
+				38BB7C6F1ED28D3F0067222C /* TexiCellTests */,
+				38BB7C7A1ED28D3F0067222C /* TexiCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38BB7C5A1ED28D3E0067222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BB7C6A1ED28D3E0067222C /* LaunchScreen.storyboard in Resources */,
+				38BB7C671ED28D3E0067222C /* Assets.xcassets in Resources */,
+				38BB7C651ED28D3E0067222C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BB7C6E1ED28D3F0067222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BB7C791ED28D3F0067222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38BB7C581ED28D3E0067222C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BB7C621ED28D3E0067222C /* ViewController.swift in Sources */,
+				38BB7C601ED28D3E0067222C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BB7C6C1ED28D3F0067222C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BB7C751ED28D3F0067222C /* TexiCellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BB7C771ED28D3F0067222C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BB7C801ED28D3F0067222C /* TexiCellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38BB7C721ED28D3F0067222C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BB7C5B1ED28D3E0067222C /* TexiCell */;
+			targetProxy = 38BB7C711ED28D3F0067222C /* PBXContainerItemProxy */;
+		};
+		38BB7C7D1ED28D3F0067222C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BB7C5B1ED28D3E0067222C /* TexiCell */;
+			targetProxy = 38BB7C7C1ED28D3F0067222C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38BB7C631ED28D3E0067222C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BB7C641ED28D3E0067222C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38BB7C681ED28D3E0067222C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BB7C691ED28D3E0067222C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38BB7C821ED28D3F0067222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38BB7C831ED28D3F0067222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38BB7C851ED28D3F0067222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TexiCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.TexiCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38BB7C861ED28D3F0067222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TexiCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.TexiCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		38BB7C881ED28D3F0067222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5P3CS2G568;
+				INFOPLIST_FILE = TexiCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.TexiCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TexiCell.app/TexiCell";
+			};
+			name = Debug;
+		};
+		38BB7C891ED28D3F0067222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5P3CS2G568;
+				INFOPLIST_FILE = TexiCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.TexiCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TexiCell.app/TexiCell";
+			};
+			name = Release;
+		};
+		38BB7C8B1ED28D3F0067222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5P3CS2G568;
+				INFOPLIST_FILE = TexiCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.TexiCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TexiCell;
+			};
+			name = Debug;
+		};
+		38BB7C8C1ED28D3F0067222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5P3CS2G568;
+				INFOPLIST_FILE = TexiCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.TexiCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TexiCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38BB7C571ED28D3E0067222C /* Build configuration list for PBXProject "TexiCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BB7C821ED28D3F0067222C /* Debug */,
+				38BB7C831ED28D3F0067222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BB7C841ED28D3F0067222C /* Build configuration list for PBXNativeTarget "TexiCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BB7C851ED28D3F0067222C /* Debug */,
+				38BB7C861ED28D3F0067222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38BB7C871ED28D3F0067222C /* Build configuration list for PBXNativeTarget "TexiCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BB7C881ED28D3F0067222C /* Debug */,
+				38BB7C891ED28D3F0067222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38BB7C8A1ED28D3F0067222C /* Build configuration list for PBXNativeTarget "TexiCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BB7C8B1ED28D3F0067222C /* Debug */,
+				38BB7C8C1ED28D3F0067222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38BB7C541ED28D3E0067222C /* Project object */;
+}
